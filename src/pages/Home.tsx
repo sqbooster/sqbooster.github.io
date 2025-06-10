@@ -64,6 +64,13 @@ const Home: React.FC = () => {
                 <Github className="h-5 w-5" />
                 <span>View on GitHub</span>
               </a>
+              <a
+                href="/docs"
+                className="bg-gray-800 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold flex items-center justify-center space-x-2 transition-colors border border-gray-600"
+              >
+                <ArrowRight className="h-5 w-5" />
+                <span>Documentation</span>
+              </a>
             </div>
           </div>
         </div>

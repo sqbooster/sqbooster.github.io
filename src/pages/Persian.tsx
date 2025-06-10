@@ -1,5 +1,5 @@
 import React from 'react';
-import { Database, Zap, Code, ArrowLeft, Download, Star, Github } from 'lucide-react';
+import { Database, ArrowRight, Zap, Code, ArrowLeft, Download, Star, Github } from 'lucide-react';
 
 const Persian: React.FC = () => {
   const features = [
@@ -63,6 +63,13 @@ const Persian: React.FC = () => {
               >
                 <Github className="h-5 w-5 ml-2" />
                 <span>مشاهده در GitHub</span>
+              </a>
+              <a
+                href="/docs"
+                className="bg-gray-800 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold flex items-center justify-center space-x-2 transition-colors border border-gray-600"
+              >
+                <ArrowRight className="h-5 w-5" />
+                <span>مستندات</span>
               </a>
             </div>
           </div>

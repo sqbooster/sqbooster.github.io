@@ -120,11 +120,11 @@ const Home: React.FC = () => {
                   <div className="text-white">db = SQLiteDatabase(<span className="text-yellow-400">"my_data.db"</span>)</div>
                   <br />
                   <div className="text-green-400"># Store data</div>
-                  <div className="text-white">db.write(<span className="text-yellow-400">"user:1"</span>, {<span className="text-yellow-400">"name"</span>: <span className="text-yellow-400">"Alice"</span>, <span className="text-yellow-400">"age"</span>: 30})</div>
+                  <div className="text-white">db.write(<span className="text-yellow-400">"user:1"</span>, {'{'}name: <span className="text-yellow-400">"Alice"</span>, age: 30{'}'})</div>
                   <br />
                   <div className="text-green-400"># Retrieve data</div>
                   <div className="text-white">user = db.read(<span className="text-yellow-400">"user:1"</span>)</div>
-                  <div className="text-white">print(user)  <span className="text-green-400"># {'name': 'Alice', 'age': 30}</span></div>
+                  <div className="text-white">print(user)  <span className="text-green-400"># {'{'}name: "Alice", age: 30{'}'}</span></div>
                 </div>
               </div>
               

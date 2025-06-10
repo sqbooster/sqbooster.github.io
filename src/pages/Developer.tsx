@@ -36,7 +36,7 @@ const Developer: React.FC = () => {
           <div className="flex justify-center mb-8">
             <div className="relative">
               <img 
-                src="https://sqbooster.github.io/sqbooster.jpeg" 
+                src="https://sqbooster.github.io/logo.jpeg" 
                 alt="Developer" 
                 className="h-32 w-32 rounded-full border-4 border-blue-400 shadow-2xl"
               />

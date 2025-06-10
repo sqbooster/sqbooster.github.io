@@ -102,7 +102,7 @@ const PyPIStats: React.FC = () => {
     {
       icon: Globe,
       label: 'License',
-      value: data?.info.license || 'MIT',
+      value: data?.info.license?.split('\n').slice(0,3).join('\n') || 'MIT',
       color: 'text-yellow-400',
       bgColor: 'bg-yellow-900'
     }

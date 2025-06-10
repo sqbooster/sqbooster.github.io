@@ -15,16 +15,46 @@ const Developer: React.FC = () => {
       link: 'https://github.com/sqbooster/sqbooster'
     },
     {
-      name: 'Database Tools',
-      description: 'Collection of utilities for database management and optimization',
-      tech: ['Python', 'PostgreSQL', 'MongoDB'],
-      link: '#'
+      name: 'pyrobale',
+      description: 'A Python library for Bale messenger bot development',
+      tech: ['Python', 'bale', 'bots'],
+      link: 'https://pyrobale.ir'
     },
     {
-      name: 'Storage Solutions',
-      description: 'High-performance storage solutions for modern applications',
-      tech: ['Python', 'Redis', 'SQLite'],
-      link: '#'
+      name: 'OpenWPB',
+      description: 'A Web-Based panel for sending messages to single or a list of users using bot tokens',
+      tech: ['Python', 'Html', 'Tailwindcss','flask'],
+      link: 'https://aima'
+    },
+    {
+      name: 'Kita Farsi',
+      description: 'A translation of kita - zola theme',
+      tech: ['zola', 'Html', 'github'],
+      link: 'https://daradege.github.io/kita-farsi/'
+    },
+    {
+      name: 'Daradege Apis (still unstable)',
+      description: 'Free Webservices',
+      tech: ['API', 'Flask', 'python'],
+      link: 'https://api.daradege.ir/'
+    },
+    {
+      name: 'Useful Tools',
+      description: 'Useful Web-Based tools',
+      tech: ['Html', 'Css', 'Javascript'],
+      link: 'https://daradege.ir/tools'
+    },
+    {
+      name: 'Search Please!',
+      description: 'A prank tool for people who ask you instead of Googling',
+      tech: ['Html', 'Css', 'Javascript'],
+      link: 'https://github.com/daradege/searchpls'
+    },
+    {
+      name: 'Daradege.ir',
+      description: 'My personal website',
+      tech: ['Html', 'Css', 'Javascript'],
+      link: 'https://daradege.ir'
     }
   ];
 
@@ -36,7 +66,7 @@ const Developer: React.FC = () => {
           <div className="flex justify-center mb-8">
             <div className="relative">
               <img 
-                src="https://github.com/sqbooster/sqbooster.github.io/blob/main/assets/logo.jpeg?raw=true" 
+                src="https://daradege.ir/logo.png" 
                 alt="Developer" 
                 className="h-32 w-32 rounded-full border-4 border-blue-400 shadow-2xl"
               />
@@ -46,24 +76,20 @@ const Developer: React.FC = () => {
             </div>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            sqbooster Developer
+            Ali Safamanesh
           </h1>
           <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-            Passionate Python developer focused on creating efficient, lightweight storage solutions 
-            that make developers' lives easier.
+            Hello! I'm Ali Safamanesh, a dedicated Backend Developer from Iran. I specialize in developing efficient backend solutions and creating automated systems through bot development for various platforms.
           </p>
           
           <div className="flex justify-center space-x-6">
-            <a href="mailto:contact@sqbooster.dev" className="text-gray-400 hover:text-blue-400 transition-colors">
+            <a href="mailto:darg.q.a.a@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors">
               <Mail className="h-6 w-6" />
             </a>
-            <a href="https://github.com/sqbooster" className="text-gray-400 hover:text-blue-400 transition-colors">
+            <a href="https://github.com/daradege" className="text-gray-400 hover:text-blue-400 transition-colors">
               <Github className="h-6 w-6" />
             </a>
-            <a href="https://twitter.com/sqbooster" className="text-gray-400 hover:text-blue-400 transition-colors">
-              <Twitter className="h-6 w-6" />
-            </a>
-            <a href="https://sqbooster.dev" className="text-gray-400 hover:text-blue-400 transition-colors">
+            <a href="https://daradege.ir" className="text-gray-400 hover:text-blue-400 transition-colors">
               <Globe className="h-6 w-6" />
             </a>
           </div>
@@ -78,7 +104,7 @@ const Developer: React.FC = () => {
             </h2>
             <div className="text-gray-300 space-y-4 text-lg leading-relaxed">
               <p>
-                I'm a Python developer with a passion for creating simple, efficient solutions 
+                I'm a Full-Stack developer with a passion for creating simple, efficient solutions 
                 to complex problems. My journey with sqbooster started from a need for a 
                 lightweight, reliable storage solution that didn't require the overhead of 
                 full database systems.
@@ -177,7 +203,7 @@ const Developer: React.FC = () => {
               Have questions about sqbooster? Want to collaborate? I'd love to hear from you!
             </p>
             <a 
-              href="mailto:contact@sqbooster.dev"
+              href="https://daradege.ir"
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold inline-flex items-center space-x-2 transition-colors"
             >
               <Mail className="h-5 w-5" />

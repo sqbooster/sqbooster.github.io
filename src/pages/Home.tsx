@@ -37,7 +37,7 @@ const Home: React.FC = () => {
           <div className="text-center">
             <div className="flex justify-center mb-8">
               <img 
-                src="https://sqbooster.github.io/logo.jpeg" 
+                src="https://github.com/sqbooster/sqbooster.github.io/blob/main/assets/logo.jpeg?raw=true" 
                 alt="sqbooster logo" 
                 className="h-20 w-20 rounded-full shadow-2xl border-4 border-blue-400"
               />
